@@ -595,12 +595,23 @@ footer {
   padding-bottom: 60px;
 }
 
-.page-footer > .container {
+/*.page-footer > .container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
+*/
 
+.page-footer > .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.add{
+  min-width: 206px;
+  min-height: 80px;
+  margin-left: 70px;
+}
 .adressf .adress-footer {
   color: var(--primary-bg-color);
   font-style: normal;
@@ -677,10 +688,10 @@ footer {
   background-color: var(--accent-color);
 }
 
-.connect {
+/*.connect {
   width: 570px;
 }
-
+*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -712,6 +723,7 @@ footer {
 .is-hidden{
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 
 }
 
